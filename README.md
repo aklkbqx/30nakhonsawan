@@ -19,7 +19,7 @@
 
 ## วิธีการใช้งาน
 
-1. สามารถเข้าชมเว็บไซต์ได้ที่ [30nakhonsawan.aklkbqx.xyz](https://30nakhonsawan.aklkbqx.xyz/)
+1. สามารถเข้าชมเว็บไซต์ได้ที่ <a target="_blank" href="https://30nakhonsawan.aklkbqx.xyz/">30nakhonsawan.aklkbqx.xyz</a>
 2. เลือกดูสถานที่ท่องเที่ยวที่สนใจจากรายการ
 3. คลิกเพื่อดูข้อมูลเพิ่มเติมของแต่ละสถานที่
 
