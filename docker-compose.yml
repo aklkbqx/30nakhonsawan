@@ -1,0 +1,19 @@
+services:
+  30nakhonsawan:
+    image: nginx:alpine
+    container_name: 30nakhonsawan
+    restart: always
+    volumes:
+      - .:/usr/share/nginx/html:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.30nakhonsawan.rule=Host(`30nakhonsawan.aklkbqx.xyz`)"
+      - "traefik.http.routers.30nakhonsawan.entrypoints=web"
+      - "traefik.http.routers.30nakhonsawan.service=30nakhonsawan"
+      - "traefik.http.services.30nakhonsawan.loadbalancer.server.port=80"
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    external: true

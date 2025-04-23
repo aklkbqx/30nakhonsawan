@@ -1,0 +1,118 @@
+@import url(../bootstrap-icons-1.10.3/bootstrap-icons.css);
+@font-face {
+  font-family: kanit;
+  src: url(../fonts/Kanit-Light.ttf);
+}
+ 
+* {
+  font-family: kanit;
+  transition: 0.1s;
+  
+}
+ 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.img-travel-1 {
+  width: 542px !important;
+  height: 400px !important;
+  object-fit: cover;
+}
+
+.click_goto_page {
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: black
+}
+
+.click_goto_page:hover {
+  transform: translateY(5px);
+  text-decoration: none;
+  color: #3F3F3F;
+}
+
+.link-footer {
+  color: white;
+}
+
+.link-footer:hover {
+  color: rgb(212, 212, 212)
+}
+
+.form-control{
+  outline: none;
+  border-radius: 0.2rem;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0;
+}
+.btn{
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0 0;
+}
+
+.backpage{
+  width: 75px;
+  gap: 10px;
+  transition: 0.5s;
+  color: black;
+  border-bottom: 1px solid white;
+  line-height: 40px;
+  margin-bottom: 1px;
+  padding-top: 10px;
+  position: relative;
+  left: 0;
+}
+.backpage:hover{
+  text-decoration: none !important;
+  color: rgb(65, 65, 65) !important;
+  position: relative;
+  left: 10px;
+}
+.nextpage{
+  width: 80px;
+  gap: 10px;
+  transition: 0.5s;
+  color: black;
+  border-bottom: 1px solid white;
+  line-height: 40px;
+  margin-bottom: 1px;
+  padding-top: 10px;
+  position: relative;
+  right: 0;
+}
+.nextpage:hover{
+  text-decoration: none !important;
+  color: rgb(65, 65, 65) !important;
+  position: relative;
+  right: 10px;
+}
+
+
+.hover-show-picture{
+  cursor: pointer;
+}
+.hover-show-picture:hover{
+  opacity: 80%;
+}
+
+.carousel-picture{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+@media (max-width:570px) {
+  .carousel-picture{
+    width: 100%;
+  height: 300px;
+  }
+}
+
+a[onclick='window.history.back()']{
+  cursor: pointer;
+}
